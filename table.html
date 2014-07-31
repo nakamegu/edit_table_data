@@ -1,0 +1,46 @@
+ <html>
+ <head>
+ <script src="./jquery-1.11.1.min.js" type="text/javascript"></script>
+ <script src="./table_operation.js" type="text/javascript"></script>
+ <link href="./table_color.css" rel="stylesheet" type="text/css">
+  
+ </head>
+ <body>
+ 
+ <table border="1" id="test_table">
+ <thead>
+  <tr>
+   <th style="display:none">ID</th>
+   <th>Item</th>
+   <th>Price</th>
+   <th>Quantity</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td style="display:none">1</td>
+   <td>AAA</td>
+   <td>100</td>
+   <td>3</td>
+  </tr>
+  <tr>
+   <td style="display:none">2</td>
+   <td>BBB</td>
+   <td>200</td>
+   <td>2</td>
+  </tr>
+  <tr class="new_data">
+   <td style="display:none"></td>
+   <td><input type="text" id="txtName"/></td>
+   <td><input type="text" id="txtPrice"/></td>
+   <td><input type="text" id="txtQuantity"/></td>
+  </tr>
+ </tbody>
+ </table>
+ 
+ <button type="submit" id="edit_button">Edit</button>
+ <button type="submit" id="save_button">Save</button>
+ <button type="submit" id="cancel_button">Cancel</button>
+ 
+ </body>
+ </html>
